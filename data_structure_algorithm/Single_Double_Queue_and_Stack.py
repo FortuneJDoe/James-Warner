@@ -22,6 +22,7 @@ class MyQueue(object):
         self.__head = node
 
     def is_empty(self):
+        
         return self.__head is None
 
     def length(self):
@@ -170,17 +171,17 @@ class MyStack(object):
             return False
 
 
-if __name__ == '__main__':
-    a = Node(0)
-    b = Node(1)
-    c = Node(2)
-    test_01 = MyQueue(a)
-    a.next = b
-    b.next = c
-    empty_01 = test_01.is_empty()
-    l_01 = test_01.length()
-    test_01.travel()
-    test_01.add(3)
-    test_01.travel()
-    p = test_01.pop()
-    test_01.travel()
+# if __name__ == '__main__':
+#     a = Node(0)
+#     b = Node(1)
+#     c = Node(2)
+#     test_01 = MyQueue(a)
+#     a.next = b
+#     b.next = c
+#     empty_01 = test_01.is_empty()
+#     l_01 = test_01.length()
+#     test_01.travel()
+#     test_01.add(3)
+#     test_01.travel()
+#     p = test_01.pop()
+#     test_01.travel()

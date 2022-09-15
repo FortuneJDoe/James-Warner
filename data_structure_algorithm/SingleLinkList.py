@@ -130,15 +130,15 @@ class SingleLinkList(object):
         self.__head = current
 
 
-if __name__ == '__main__':
-    test_l = SingleLinkList()
-    # test_l.append(0)
-    test_l.append(1)
-    test_l.append(2)
-    test_l.append(3)
-    test_l.append(4)
-    test_l.append(5)
-    test_l.add(0)
-    test_l.reverse()
-    test_l.travel()
+# if __name__ == '__main__':
+#     test_l = SingleLinkList()
+#     # test_l.append(0)
+#     test_l.append(1)
+#     test_l.append(2)
+#     test_l.append(3)
+#     test_l.append(4)
+#     test_l.append(5)
+#     test_l.add(0)
+#     test_l.reverse()
+#     test_l.travel()
 

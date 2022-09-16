@@ -3,6 +3,8 @@
 #### 1. 双线性插值(bilinear_interplation.py)
 &emsp;&emsp; 使用numpy、opencv等库，将根据数学原理推导的过程“翻译”成代码实现。这是我第一次实现计算机视觉算法功能。
 
+#### 1.1 《02双线性插值学习笔记_ver7_by姜巍20211209.pdf》为数学推导过程。
+
 #### 2. 最临近插值(nearest_interpolation.py)
 &emsp;&emsp; 将双线性插值代码循环部分稍作修改，使用lambda匿名函数实现最临近插值的算法即可。
 

@@ -1,9 +1,9 @@
 [11. 盛最多水的容器 cn-leetcode](https://leetcode.cn/problems/container-with-most-water/)
 
-<br>给定一个长度为 n 的整数数组<kbd>height</kbd>。有<kbd>n</kbd>条垂线，第 i 条线的两个端点是<kbd>(i, 0)</kbd>和<kbd>(i, height[i])</kbd>。
-<br>找出其中的两条线，使得它们与<kbd>x</kbd>轴共同构成的容器可以容纳最多的水。
-<br>返回容器可以储存的最大水量。
-<br>说明：你不能倾斜容器。
+<br>&emsp;&emsp;给定一个长度为 n 的整数数组<kbd>height</kbd>。有<kbd>n</kbd>条垂线，第 i 条线的两个端点是<kbd>(i, 0)</kbd>和<kbd>(i, height[i])</kbd>。
+<br>&emsp;&emsp;找出其中的两条线，使得它们与<kbd>x</kbd>轴共同构成的容器可以容纳最多的水。
+<br>&emsp;&emsp;返回容器可以储存的最大水量。
+<br>&emsp;&emsp;说明：你不能倾斜容器。
 
 **示例1**
 ![img_1.png](img_1.png)

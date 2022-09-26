@@ -1,5 +1,6 @@
 """
 国际leetcode网站题目：https://leetcode.com/problems/reverse-nodes-in-k-group/
+国内leetcode对应题目：https://leetcode.cn/problems/reverse-nodes-in-k-group/
 
 Description:
 Given the head of a linked list, reverse the nodes of the list k at a time, and return the modified list.

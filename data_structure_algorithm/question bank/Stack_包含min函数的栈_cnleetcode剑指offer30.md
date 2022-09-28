@@ -60,8 +60,11 @@ class MinStack:
 ```
 
 **官方题解**
+<br>[官方题解]([https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof/](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof/solution/bao-han-minhan-shu-de-zhan-by-leetcode-s-i2fk/))
 
 ![剑指offer leetcode官方题解](C:/Users/JayDW/Desktop/jianzhi_30.gif)
+
+![剑指offer leetcode官方题解](https://assets.leetcode-cn.com/solution-static/jianzhi_30/jianzhi_30.gif)
 
 按照上面的思路，我们只需要设计一个数据结构，使得每个元素 a 与其相应的最小值 m 时刻保持一一对应。因此我们可以使用一个辅助栈，与元素栈同步插入与删除，用于存储与每个元素对应的最小值。
 

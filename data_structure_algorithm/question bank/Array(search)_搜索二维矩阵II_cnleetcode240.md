@@ -9,7 +9,8 @@
 </ul>
 
 **示例1**
-![img.png](img.png)
+![img](https://user-images.githubusercontent.com/92873873/193555921-dd1232bb-32a6-4103-9541-0162cdfd8014.png)
+
 >输入：
 > <br>&emsp;&emsp;matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]],target = 5
 > 
@@ -17,7 +18,8 @@
 > <br>&emsp;&emsp;true
 
 **示例2**
-![img_1.png](img_1.png)
+![img_1](https://user-images.githubusercontent.com/92873873/193555964-3109b0eb-1ff0-442a-aee6-1a0a9792ed96.png)
+
 >输入：
 > <br>&emsp;&emsp;matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]],target=20
 > 
@@ -78,10 +80,9 @@ class Solution:
 <li>时间复杂度: O(m+n)。在搜索的过程中，如果我们没有找到 target，那么我们要么将 y 减少 1，要么将 x 增加 1。由于 (x,y) 的初始值分别为 (0,n−1)，因此 y 最多能被减少 n 次，x 最多能被增加 m 次，总搜索次数为 m+n。在这之后，x 和 y 就会超出矩阵的边界</li>
 <li>空间复杂度: O(1)</li>
 </ul>
+![img_2](https://user-images.githubusercontent.com/92873873/193556008-972ff4c5-92f7-4e0c-91f8-be7a5cdd9f77.png)
 
-![img_2.png](img_2.png)
-
-![img_3.png](img_3.png)
+![img_3](https://user-images.githubusercontent.com/92873873/193556039-3d428495-6975-4155-963a-d31fe6fba496.png)
 
 作者：LeetCode-Solution
 链接：https://leetcode.cn/problems/search-a-2d-matrix-ii/solution/sou-suo-er-wei-ju-zhen-ii-by-leetcode-so-9hcx/

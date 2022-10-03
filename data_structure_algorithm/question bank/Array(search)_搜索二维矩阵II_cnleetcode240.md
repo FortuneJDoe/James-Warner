@@ -80,6 +80,7 @@ class Solution:
 <li>时间复杂度: O(m+n)。在搜索的过程中，如果我们没有找到 target，那么我们要么将 y 减少 1，要么将 x 增加 1。由于 (x,y) 的初始值分别为 (0,n−1)，因此 y 最多能被减少 n 次，x 最多能被增加 m 次，总搜索次数为 m+n。在这之后，x 和 y 就会超出矩阵的边界</li>
 <li>空间复杂度: O(1)</li>
 </ul>
+
 ![img_2](https://user-images.githubusercontent.com/92873873/193556008-972ff4c5-92f7-4e0c-91f8-be7a5cdd9f77.png)
 
 ![img_3](https://user-images.githubusercontent.com/92873873/193556039-3d428495-6975-4155-963a-d31fe6fba496.png)

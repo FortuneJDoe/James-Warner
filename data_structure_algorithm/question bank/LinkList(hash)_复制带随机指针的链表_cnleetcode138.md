@@ -17,7 +17,8 @@
 你的代码**只**接受原链表的头节点<kbd>head</kbd>作为传入参数。
 
 **示例1**
-> ![img_6.png](img_6.png)
+![image](https://user-images.githubusercontent.com/92873873/193556506-280884b5-417b-4556-bd37-fae322ca3fe0.png)
+
 >输入：
 > <br>&emsp;&emsp;head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
 > 
@@ -25,7 +26,8 @@
 > <br>&emsp;&emsp;[[7,null],[13,0],[11,4],[10,2],[1,0]]
 
 **示例2**
-> ![img_7.png](img_7.png)
+![image](https://user-images.githubusercontent.com/92873873/193556532-2c9cc957-16f7-4671-bdae-b7b832930bfd.png)
+
 >输入：
 > <br>&emsp;&emsp;head = [[1,1],[2,1]]
 > 
@@ -33,7 +35,8 @@
 > <br>&emsp;&emsp;[[1,1],[2,1]]
 
 **示例3**
-> ![img_8.png](img_8.png)
+![image](https://user-images.githubusercontent.com/92873873/193556558-93585e80-70cd-4891-8d39-ce407350a0f3.png)
+
 >输入：
 > <br>&emsp;&emsp;head = [[3,null],[3,0],[3,null]]
 > 

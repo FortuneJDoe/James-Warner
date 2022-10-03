@@ -6,7 +6,7 @@
 <br>&emsp;&emsp;说明：你不能倾斜容器。
 
 **示例1**
-![img_1.png](img_1.png)
+![image](https://user-images.githubusercontent.com/92873873/193556355-a2503223-fe61-4c39-beba-15b948d4a7b2.png)
 
 >输入：[1,8,6,2,5,4,8,3,7]
 > 

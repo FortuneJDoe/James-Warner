@@ -36,7 +36,7 @@ class Solution:
                 if flag & (1 << x):  # 如果按此位数右移，得到flag对应位置为1，则表示此字符出现至少2次
                     continue  # 跳过
                 else:  # 此字符未出现超过1次
-                    return j  # 返回找到字符
+                    return j  # 返回找到字符(返回的是“第一个这样的字符”)
             # 然而上述情况得到返回值的前提是——字符串中确实有只出现过1次的字符
             return ' '  # 遍历结束也未找到出现1次的字符
 ```
@@ -64,3 +64,24 @@ class Solution:
 <br>链接：https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/solution/mian-shi-ti-50-di-yi-ge-zhi-chu-xian-yi-ci-de-zi-3/
 <br>来源：力扣（LeetCode）
 <br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+需指明：
+<ul>
+<li>该方法可以修改后找到所有出现过1次的字符</li>
+<li>2.python 3.6之后版本dict类型为有序(指键值对在内存中根据加入到字典中的时间顺序有序)，因此该方法第二次遍历无需遍历字符串，只需遍历键值对即可找到(如果存在)第一个只出现一次的字符。
+</li>
+</ul>
+
+
+**修改后的代码**
+```python
+class Solution:
+    def firstUniqChar(self, s: str) -> str:
+        dic = {}
+        for c in s:
+            dic[c] = not c in dic
+        for k, v in dic.items():
+            if v == 1:
+                return k
+        return ' '
+```

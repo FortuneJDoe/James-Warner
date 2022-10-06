@@ -36,7 +36,8 @@ class Mystack:
             print('空栈无法完成操作！')
         else:
             self.index -= 1
-            print(f'弹出元素为{self.mystack[self.index]},剩余{self.index}个元素。')
+            pop_elem = self.mystack[self.index]
+            return pop_elem
 
     def length(self):
         """

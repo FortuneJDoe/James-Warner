@@ -8,13 +8,13 @@ class Node(object):
 
 
 class MyBinaryTree(object):
-    """二叉树极其先、中、后序遍历"""
+    """二叉树极其先、中、后序遍历的递归实现"""
 
     def __init__(self, node=None):
         self.head = node
 
     def pre_traversal(self, start: Node):
-        """先序遍历"""
+        """先序遍历的递归实现"""
 
         if start:
             print(start.val)
@@ -22,7 +22,7 @@ class MyBinaryTree(object):
             self.pre_traversal(start.right)
 
     def in_traversal(self, start: Node):
-        """中序遍历"""
+        """中序遍历的递归实现"""
 
         if start:
             self.in_traversal(start.left)
@@ -30,7 +30,7 @@ class MyBinaryTree(object):
             self.in_traversal(start.right)
 
     def pos_traversal(self, start: Node):
-        """后序遍历"""
+        """后序遍历的递归实现"""
 
         if start:
             self.pos_traversal(start.left)

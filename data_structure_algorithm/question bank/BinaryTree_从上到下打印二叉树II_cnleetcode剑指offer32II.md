@@ -4,7 +4,8 @@
 **示例1**
 >输入：
 > <br>&emsp;&emsp;给定二叉树: [3,9,20,null,null,15,7]
-> 
+> <br>![1665328828144](https://user-images.githubusercontent.com/92873873/194764975-324d3b12-579d-404a-90ec-7c479530b4c4.png)
+>
 >输出：
 > <br>&emsp;&emsp;[
   [3],

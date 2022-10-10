@@ -2,6 +2,8 @@
 <br>输入两棵二叉树A和B，判断B是不是A的子结构。(约定空树不是任意一个树的子结构)
 <br>B是A的子结构， 即 A中有出现和B相同的结构和节点值
 
+![1665407283367](https://user-images.githubusercontent.com/92873873/194873548-3ef7de3f-6f33-462c-bc3a-17a5847a84cf.png)
+
 **示例1**
 >输入：
 > <br>&emsp;&emsp;A = [1,2,3], B = [3,1]

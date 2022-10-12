@@ -4,6 +4,8 @@
 <br>这里对组件的定义为：链表中一段最长连续结点的值(该值必须在列表<kbd>nums</kbd>中)构成的集合。
 
 **示例1**
+>![image](https://user-images.githubusercontent.com/92873873/195308268-6bb6770d-9430-435a-b6b5-ac65c81a099f.png)
+>
 >输入：
 > <br>&emsp;&emsp;head = [0,1,2,3], nums = [0,1,3]
 > 
@@ -14,6 +16,8 @@
 > <br>&emsp;&emsp;链表中,0 和 1 是相连接的，且 nums 中不包含 2，所以 [0, 1] 是 nums 的一个组件，同理 [3] 也是一个组件，故返回 2
 
 **示例2**
+>![image](https://user-images.githubusercontent.com/92873873/195308374-b2537866-4f56-4d7d-bb9d-4a92457fbf31.png)
+>
 >输入：
 > <br>&emsp;&emsp;head = [0,1,2,3,4], nums = [0,3,1,4]
 > 

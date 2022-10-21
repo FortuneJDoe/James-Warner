@@ -45,3 +45,6 @@ class Solution:
                 nums[i] += nums[i - 1]
         return max(nums)
 ```
+
+![37e0236f27d9a2579852d4f06403d23](https://user-images.githubusercontent.com/92873873/197192434-e9b6c9a8-2a1b-4d91-afa0-70c09fa3a9a9.png)
+[来源：力扣官方题解视频截图](https://leetcode.cn/problems/maximum-subarray/solution/zui-da-zi-xu-he-by-leetcode-solution/)

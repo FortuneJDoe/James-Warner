@@ -40,7 +40,7 @@ from typing import List
 
 class Solution:
     def merge(self, intervals: List[Interval]) -> List[Interval]:
-        if intervals == []:
+        if intervals:
             return intervals
         intervals = sorted(intervals, key=lambda x: x.start)
         res = list()

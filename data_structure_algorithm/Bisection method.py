@@ -1,6 +1,7 @@
 import numpy as np
 import random
 
+
 def localminarrgen(max_len, max_val):
     """存在局部最小值的非负数组生成器"""
 
@@ -58,6 +59,7 @@ def check(arr_in, ind):
         else:  # 如果在中间，则前后都有元素，比较确认是否为局部极小值
             return True if (arr_in[ind - 1] >= arr_in[ind] and arr_in[ind] <= arr_in[ind + 1]) else False
 
+
 # (可选)自己检测实例代码
 if __name__ == '__main__':
     count = 0
@@ -75,4 +77,3 @@ if __name__ == '__main__':
             print(f"数组为空，跳过。\n")
             count += 1
     print(f"验证正确率：{correct / (times - count) * 100}%")
-
